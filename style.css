@@ -90,4 +90,45 @@ section{
   padding-right: 30px;
   font-size: 1.7em;
 }
- /* stopped in 22 min
+.title{
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 2.2em;
+  color: #3a6cf4;
+  margin-bottom: 30px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.card{
+  box-shadow: 0 5px 25px rgba(1 1 1/ 15%);
+  width: 21.25em;
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 25px;
+  transition: 0.7s ease;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+.icon{
+  font-size: 8em;
+  text-align: center;
+  color: #3a6cf4;
+
+}
+.info{
+  text-align: center;
+}
+.info h3{
+  color: #3a6cf4;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+ /* stopped in 1.5 h/ min
