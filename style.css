@@ -36,4 +36,58 @@ header {
 .navigation a:hover {
   color: #601cfc;
 }
+section{
+  padding: 100px 200px;
+}
+.main{
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  background: url(images/background.jpg) no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+.main h2{
+  color: orange;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.main h2 span{
+  color: blue;
+  font-size: 3em;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 10px;
+}
+.main h3{
+  color: rgb(15, 17, 16);
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main-btn{
+  display: inline-block;
+  margin-bottom: 40px;
+  padding: 0.93em 2.18em;
+  color: white;
+  background-color: #601cfc;
+  transition: 0.7S ease;
+  text-decoration: none;
+  border-radius: 15px;
+  letter-spacing: 1px;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.main-btn:hover{
+  background-color: #4811c7;
+  transform: scale(1.1);
+}
+.social-btns a{
+  color: black;
+  padding-right: 30px;
+  font-size: 1.7em;
+}
  /* stopped in 22 min
